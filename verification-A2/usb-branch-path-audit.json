@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "method": "Dijkstra shortest conductive paths from each USB-C orientation to mux; includes actual front/back via traversal; total-net branch sums are not signal path lengths",
+  "via_span_mm": 1.5862,
+  "results": [
+    {
+      "host": 1,
+      "connector_pin_to_mux_lengths_mm": {
+        "AP": 41.130951037800216,
+        "BP": 42.130951037800216,
+        "AN": 41.13095074490716,
+        "BN": 42.13095074490716
+      },
+      "orientation_skews_mm": {
+        "A": 2.928930555867737e-07,
+        "B": 2.928930555867737e-07
+      }
+    },
+    {
+      "host": 2,
+      "connector_pin_to_mux_lengths_mm": {
+        "AP": 30.03490488972911,
+        "BP": 31.03490488972911,
+        "AN": 30.03490488972911,
+        "BN": 31.03490488972911
+      },
+      "orientation_skews_mm": {
+        "A": 0.0,
+        "B": 0.0
+      }
+    }
+  ]
+}

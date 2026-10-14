@@ -1,0 +1,1 @@
+Current additional review: verification-A2/Review-results.md. Use revision A2 files. The previous additional-review folder describes A1 analysis and is retained only as historical supporting evidence. Physical and factory limitations remain open.

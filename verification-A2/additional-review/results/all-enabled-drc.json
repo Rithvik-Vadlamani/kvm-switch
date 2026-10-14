@@ -1,0 +1,292 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-06T01:00:28",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "KVM_Switch.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 0.8310 mm",
+                    "pos": {
+                        "x": 71.75,
+                        "y": 26.6
+                    },
+                    "uuid": "37aaf35d-e191-4ee8-bfa4-bfcb7d7a1411"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 71.75,
+                        "y": 26.65
+                    },
+                    "uuid": "b01269a9-1031-43fb-a957-2e6bac67da34"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 1.3375 mm",
+                    "pos": {
+                        "x": 71.75,
+                        "y": 27.9375
+                    },
+                    "uuid": "e2deb65c-e18f-492e-a9d9-ad47a0bbb865"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 71.75,
+                        "y": 26.65
+                    },
+                    "uuid": "b01269a9-1031-43fb-a957-2e6bac67da34"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 0.4975 mm",
+                    "pos": {
+                        "x": 40.369621,
+                        "y": 89.05
+                    },
+                    "uuid": "7c751283-21a9-4723-ab3a-060f39ca0a0b"
+                },
+                {
+                    "description": "Via [+5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 40.36962,
+                        "y": 89.05
+                    },
+                    "uuid": "728eaf32-5716-4d22-8bb2-99a13d64cadc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [+5V] on B.Cu, length 0.4975 mm",
+                    "pos": {
+                        "x": 39.872152,
+                        "y": 89.05
+                    },
+                    "uuid": "999d8b94-556c-430e-8b6c-7d228c9be34f"
+                },
+                {
+                    "description": "Via [+5V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 40.36962,
+                        "y": 89.05
+                    },
+                    "uuid": "728eaf32-5716-4d22-8bb2-99a13d64cadc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS1] on F.Cu, length 0.4881 mm",
+                    "pos": {
+                        "x": 86.680952,
+                        "y": 95.05
+                    },
+                    "uuid": "7fcfcbfd-d210-4030-b36c-b93c9c2506f3"
+                },
+                {
+                    "description": "Via [USB_VBUS1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 87.3835,
+                        "y": 95.05
+                    },
+                    "uuid": "a7a0a67a-97f7-428e-a140-a81665033d98"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS1] on F.Cu, length 0.4881 mm",
+                    "pos": {
+                        "x": 87.169048,
+                        "y": 95.05
+                    },
+                    "uuid": "a76d2013-867b-4e37-86ca-259192ffa35b"
+                },
+                {
+                    "description": "Via [USB_VBUS1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 87.3835,
+                        "y": 95.05
+                    },
+                    "uuid": "a7a0a67a-97f7-428e-a140-a81665033d98"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS2] on F.Cu, length 0.4881 mm",
+                    "pos": {
+                        "x": 89.757143,
+                        "y": 73.6
+                    },
+                    "uuid": "40e251b4-1b60-407f-8973-1c1b0090cd94"
+                },
+                {
+                    "description": "Via [USB_VBUS2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.2984,
+                        "y": 73.6
+                    },
+                    "uuid": "a97ffe43-506f-4836-9f53-36437c197e56"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS2] on F.Cu, length 0.4881 mm",
+                    "pos": {
+                        "x": 89.269048,
+                        "y": 73.6
+                    },
+                    "uuid": "bc77a9af-0097-495a-abd2-e74dfd3a870b"
+                },
+                {
+                    "description": "Via [USB_VBUS2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.2984,
+                        "y": 73.6
+                    },
+                    "uuid": "a97ffe43-506f-4836-9f53-36437c197e56"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS4] on F.Cu, length 0.4857 mm",
+                    "pos": {
+                        "x": 89.107143,
+                        "y": 41.9
+                    },
+                    "uuid": "764f2d3d-d13c-4c24-af81-a5d4d33ddb91"
+                },
+                {
+                    "description": "Via [USB_VBUS4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.2984,
+                        "y": 41.9
+                    },
+                    "uuid": "98ff4a77-50b9-44b2-a526-857a3e29616f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS4] on F.Cu, length 0.4857 mm",
+                    "pos": {
+                        "x": 88.621429,
+                        "y": 41.9
+                    },
+                    "uuid": "a32a4409-d123-46f6-bb91-98ba4f535303"
+                },
+                {
+                    "description": "Via [USB_VBUS4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.2984,
+                        "y": 41.9
+                    },
+                    "uuid": "98ff4a77-50b9-44b2-a526-857a3e29616f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS3] on F.Cu, length 0.4881 mm",
+                    "pos": {
+                        "x": 89.807143,
+                        "y": 57.65
+                    },
+                    "uuid": "6cff310d-2c57-4a84-b156-112b02b0e0c6"
+                },
+                {
+                    "description": "Via [USB_VBUS3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.9834,
+                        "y": 57.65
+                    },
+                    "uuid": "867fc5a3-1e26-47db-b356-2f4e81d2203a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS3] on F.Cu, length 0.4881 mm",
+                    "pos": {
+                        "x": 90.295238,
+                        "y": 57.65
+                    },
+                    "uuid": "81049a1f-fbe2-4b36-aada-fbd669465685"
+                },
+                {
+                    "description": "Via [USB_VBUS3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 89.9834,
+                        "y": 57.65
+                    },
+                    "uuid": "867fc5a3-1e26-47db-b356-2f4e81d2203a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        }
+    ]
+}

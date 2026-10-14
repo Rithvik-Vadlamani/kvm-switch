@@ -1,0 +1,240 @@
+{
+  "status": "PASS",
+  "method": "Total routed copper lengths for unbranched pairs; pad propagation delay and package delay excluded; balanced vias",
+  "pair_count": 29,
+  "maximum_planar_skew_mm": 1.4006409188027646e-06,
+  "results": [
+    {
+      "pair": "/USBC_Mux/C1_MON1_D0",
+      "P_planar_length_mm": 17.736727411963805,
+      "P_vias": 0,
+      "N_planar_length_mm": 17.736727411963805,
+      "N_vias": 0,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON1_D1",
+      "P_planar_length_mm": 17.736727411963805,
+      "P_vias": 0,
+      "N_planar_length_mm": 17.736727411963805,
+      "N_vias": 0,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON1_D2",
+      "P_planar_length_mm": 17.736727411963805,
+      "P_vias": 0,
+      "N_planar_length_mm": 17.736727411963805,
+      "N_vias": 0,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON1_D3",
+      "P_planar_length_mm": 17.736727411963805,
+      "P_vias": 0,
+      "N_planar_length_mm": 17.736727411963805,
+      "N_vias": 0,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON2_D0",
+      "P_planar_length_mm": 17.551571163683427,
+      "P_vias": 1,
+      "N_planar_length_mm": 17.55157116368343,
+      "N_vias": 1,
+      "skew_mm": 3.552713678800501e-15
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON2_D1",
+      "P_planar_length_mm": 17.551571163683427,
+      "P_vias": 1,
+      "N_planar_length_mm": 17.55157116368343,
+      "N_vias": 1,
+      "skew_mm": 3.552713678800501e-15
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON2_D2",
+      "P_planar_length_mm": 17.551571163683427,
+      "P_vias": 1,
+      "N_planar_length_mm": 17.551571163683427,
+      "N_vias": 1,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C1_MON2_D3",
+      "P_planar_length_mm": 17.55157116368343,
+      "P_vias": 1,
+      "N_planar_length_mm": 17.55157116368343,
+      "N_vias": 1,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON1_D0",
+      "P_planar_length_mm": 11.52962063077726,
+      "P_vias": 0,
+      "N_planar_length_mm": 11.529620630777258,
+      "N_vias": 0,
+      "skew_mm": 1.7763568394002505e-15
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON1_D1",
+      "P_planar_length_mm": 11.52962063077726,
+      "P_vias": 0,
+      "N_planar_length_mm": 11.529620630777256,
+      "N_vias": 0,
+      "skew_mm": 3.552713678800501e-15
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON1_D2",
+      "P_planar_length_mm": 11.529620630777258,
+      "P_vias": 0,
+      "N_planar_length_mm": 11.52962063077726,
+      "N_vias": 0,
+      "skew_mm": 1.7763568394002505e-15
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON1_D3",
+      "P_planar_length_mm": 11.52962063077726,
+      "P_vias": 0,
+      "N_planar_length_mm": 11.529620630777258,
+      "N_vias": 0,
+      "skew_mm": 1.7763568394002505e-15
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON2_D0",
+      "P_planar_length_mm": 11.758677944869978,
+      "P_vias": 1,
+      "N_planar_length_mm": 11.758677944869978,
+      "N_vias": 1,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON2_D1",
+      "P_planar_length_mm": 11.75867794486998,
+      "P_vias": 1,
+      "N_planar_length_mm": 11.758677944869978,
+      "N_vias": 1,
+      "skew_mm": 1.7763568394002505e-15
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON2_D2",
+      "P_planar_length_mm": 11.758677944869977,
+      "P_vias": 1,
+      "N_planar_length_mm": 11.7586789692872,
+      "N_vias": 1,
+      "skew_mm": 1.0244172230500226e-06
+    },
+    {
+      "pair": "/USBC_Mux/C2_MON2_D3",
+      "P_planar_length_mm": 11.758677944869978,
+      "P_vias": 1,
+      "N_planar_length_mm": 11.75867794486998,
+      "N_vias": 1,
+      "skew_mm": 1.7763568394002505e-15
+    },
+    {
+      "pair": "/USBC_Mux/MON1_D0",
+      "P_planar_length_mm": 63.551571163683434,
+      "P_vias": 1,
+      "N_planar_length_mm": 63.551571163683434,
+      "N_vias": 1,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/MON1_D1",
+      "P_planar_length_mm": 63.551571163683434,
+      "P_vias": 1,
+      "N_planar_length_mm": 63.55157116368343,
+      "N_vias": 1,
+      "skew_mm": 7.105427357601002e-15
+    },
+    {
+      "pair": "/USBC_Mux/MON1_D2",
+      "P_planar_length_mm": 63.551571163683434,
+      "P_vias": 1,
+      "N_planar_length_mm": 63.551571163683434,
+      "N_vias": 1,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/MON1_D3",
+      "P_planar_length_mm": 63.551571163683434,
+      "P_vias": 1,
+      "N_planar_length_mm": 63.551571163683434,
+      "N_vias": 1,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "/USBC_Mux/MON2_D0",
+      "P_planar_length_mm": 65.8077952238293,
+      "P_vias": 0,
+      "N_planar_length_mm": 65.80779624824645,
+      "N_vias": 0,
+      "skew_mm": 1.0244171448903217e-06
+    },
+    {
+      "pair": "/USBC_Mux/MON2_D1",
+      "P_planar_length_mm": 65.8077952238293,
+      "P_vias": 0,
+      "N_planar_length_mm": 65.80779522382927,
+      "N_vias": 0,
+      "skew_mm": 2.842170943040401e-14
+    },
+    {
+      "pair": "/USBC_Mux/MON2_D2",
+      "P_planar_length_mm": 65.80779522382929,
+      "P_vias": 0,
+      "N_planar_length_mm": 65.80779522382927,
+      "N_vias": 0,
+      "skew_mm": 1.4210854715202004e-14
+    },
+    {
+      "pair": "/USBC_Mux/MON2_D3",
+      "P_planar_length_mm": 65.80779522382929,
+      "P_vias": 0,
+      "N_planar_length_mm": 65.80779624824645,
+      "N_vias": 0,
+      "skew_mm": 1.0244171591011764e-06
+    },
+    {
+      "pair": "USB_D1",
+      "P_planar_length_mm": 51.9029139889663,
+      "P_vias": 0,
+      "N_planar_length_mm": 51.90291398896171,
+      "N_vias": 0,
+      "skew_mm": 4.590106073010247e-12
+    },
+    {
+      "pair": "USB_D2",
+      "P_planar_length_mm": 41.61849481185751,
+      "P_vias": 0,
+      "N_planar_length_mm": 41.618494811857516,
+      "N_vias": 0,
+      "skew_mm": 7.105427357601002e-15
+    },
+    {
+      "pair": "USB_D3",
+      "P_planar_length_mm": 38.594735806533926,
+      "P_vias": 0,
+      "N_planar_length_mm": 38.59473580653392,
+      "N_vias": 0,
+      "skew_mm": 7.105427357601002e-15
+    },
+    {
+      "pair": "USB_D4",
+      "P_planar_length_mm": 42.86113549897681,
+      "P_vias": 0,
+      "N_planar_length_mm": 42.86113549897681,
+      "N_vias": 0,
+      "skew_mm": 0.0
+    },
+    {
+      "pair": "USB_UP",
+      "P_planar_length_mm": 21.796781818934832,
+      "P_vias": 2,
+      "N_planar_length_mm": 21.796780418293913,
+      "N_vias": 2,
+      "skew_mm": 1.4006409188027646e-06
+    }
+  ]
+}

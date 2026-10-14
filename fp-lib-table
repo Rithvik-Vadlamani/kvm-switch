@@ -6,5 +6,5 @@
 	(lib (name "usblc6") (type "KiCad") (uri "${KIPRJMOD}/lib/usblc6.pretty") (options "") (descr ""))
 	(lib (name "polyfuse") (type "KiCad") (uri "${KIPRJMOD}/lib/polyfuse.pretty") (options "") (descr ""))
 	(lib (name "inductor_5040") (type "KiCad") (uri "${KIPRJMOD}/lib/inductor_5040.pretty") (options "") (descr ""))
-	(lib (name "easyeda2kicad") (type "KiCad") (uri "/Users/rithvik/Documents/KiCad/easyeda2kicad/easyeda2kicad.pretty") (options "") (descr ""))
+	
 )

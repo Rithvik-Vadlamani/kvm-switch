@@ -1,0 +1,6 @@
+/Users/rithvik/Documents/Codex/2026-09-04/files-pasted-by-the-user-2/work/toolchain/bin/arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -Os -g3 -std=gnu11 -Wall -Wextra -Werror -ffreestanding -fno-builtin -ffunction-sections -fdata-sections -nostdlib -Wl,--gc-sections,-Map=kvm.map -T stm32f030c8.ld main.c startup.c control.c -lgcc -o kvm.elf
+/Users/rithvik/Documents/Codex/2026-09-04/files-pasted-by-the-user-2/work/toolchain/bin/arm-none-eabi-size kvm.elf
+   text	   data	    bss	    dec	    hex	filename
+    980	      0	      4	    984	    3d8	kvm.elf
+/Users/rithvik/Documents/Codex/2026-09-04/files-pasted-by-the-user-2/work/toolchain/bin/arm-none-eabi-objcopy -O binary kvm.elf kvm.bin
+/Users/rithvik/Documents/Codex/2026-09-04/files-pasted-by-the-user-2/work/toolchain/bin/arm-none-eabi-objcopy -O ihex kvm.elf kvm.hex

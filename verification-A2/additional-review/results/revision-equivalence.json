@@ -1,0 +1,11 @@
+{
+  "A2": {
+    "unchanged_high_speed_segments_from_A1": 862,
+    "retained_via_net_assignments_unchanged": true
+  },
+  "A2-Economy": {
+    "unchanged_high_speed_segments_from_A1": 862,
+    "retained_via_net_assignments_unchanged": true
+  },
+  "same_final_components_MPNs_and_pin_nets_between_variants": true
+}

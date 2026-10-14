@@ -1,0 +1,18 @@
+(version 1)
+# The two inner copper layers are continuous ground reference planes.
+(rule "No signal tracks on inner ground 1"
+  (layer "In1.Cu")
+  (constraint disallow track))
+(rule "No signal tracks on inner ground 2"
+  (layer "In2.Cu")
+  (constraint disallow track))
+# Conservative provisional routing targets; impedance dimensions come from
+# JLC04161H-7628. Review fanouts and return paths in addition to these checks.
+(rule "HDMI pair skew target"
+  (condition "A.NetClass == 'HDMI'")
+  (constraint skew (max 0.15mm) (within_diff_pairs)))
+(rule "USB pair skew target"
+  # USB-C host nets branch at the duplicated connector pins. Their actual A/B
+  # orientation paths are checked in usb-branch-path-audit.json instead of summing branches.
+  (condition "A.NetClass == 'USB2' && A.NetName != 'USB_HOST*'")
+  (constraint skew (max 0.15mm) (within_diff_pairs)))

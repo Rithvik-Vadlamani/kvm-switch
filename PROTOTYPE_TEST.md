@@ -1,0 +1,15 @@
+# Prototype bring-up
+
+A1 static-check evidence and limitations are recorded in verification/Circuit-review-A1.md. Use this procedure after self-assembly and inspection. Record measurements for the single requested prototype; these physical tests have not yet been performed.
+
+1. Inspect part orientation and soldering, especially the QFN thermal pads, USB-C contacts, HDMI contacts, polarized capacitors, diode and power input. Check for shorts between VIN, 5 V, 3.3 V and ground before applying power.
+2. Disconnect all laptops and monitors. Power from a current-limited 12 V bench supply. Check the approximately 5.08 V converter rail and 3.3 V rail, supply current and heating. Check converter ripple and startup with an oscilloscope. Stop and inspect an unexpected current-limit event or unstable rail.
+3. Program the STM32 through J4 and verify the flash image. Check that host selection is low at startup and that each button press alternates it. Scope video enable, USB output enable and hub reset to verify the 150 ms break and 100 ms settling sequence.
+4. Connect only one host USB data cable and one low-power USB device. Confirm the four-port USB 2.0 hub enumerates and the device works. Repeat for every downstream port and both host inputs. Test USB-C cable orientation at each host connector.
+5. Connect both host data cables. Verify a switch disconnects the USB device from the old host and enumerates it on the new host. Test a held button, quick repeated presses, unplug/replug of either host and power cycling. Neither host VBUS input should power the board's 5 V rail.
+6. Use an electronic load to test each downstream port at 500 mA, then all four ports together. Check port voltage at the connectors, converter temperature, 5 V droop and overcurrent reporting. Verify that a current-limited port fault clears after the fault is removed. Use a controlled load for this test.
+7. Test one video channel at a time with a known-working direct laptop-to-monitor connection first. Connect laptop native HDMI to the corresponding first video input, and USB-C-to-HDMI to its second video input. Start at 1080p60, then select 2560x1440 at 60 Hz. Repeat for both monitors and both laptops.
+8. Run both displays in extended mode at 1440p60 while transferring USB data. Test repeated switching, suspend/resume, cold boot and independent monitor power cycles. Watch for dropouts, sparkles, USB resets and loss of hot-plug detection. Record cable models and lengths, adapter models, display modes and operating-system versions.
+9. Record all results for the assembled prototype. Repeat on any additional units only if they are ordered. A working unit demonstrates this prototype combination; it does not establish compatibility with every laptop, dock, monitor or cable.
+
+For the initial laptops, use a USB-C-to-C data cable for the Mac and a USB-A-to-C data cable for the ASUS. The ASUS USB-C port is needed for its second video output. The USB-C connectors on this board carry USB 2.0 data only; they do not accept video or charge the laptops.

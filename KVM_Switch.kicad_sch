@@ -5,10 +5,52 @@
 	(uuid "279dcbcf-1f22-44c7-9f37-6f8e9c8b454d")
 	(paper "A4")
 	(title_block
-		(title "KVM Switch — Top Level")
-		(rev "1.0")
+		(title "Two-computer HDMI and USB switch")
+		(date "2026-09-06")
+		(rev "A2")
+		(comment 1 "Routed prototype - hardware validation required")
 	)
 	(lib_symbols)
+	(text "Four USB 2.0 peripheral ports\nSelf-powered hub\nIndividual current-limited port switches\nUSB ESD protection"
+		(exclude_from_sim no)
+		(at 205 135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b38ce0d-12ab-4d8b-ae2b-3ae5eb67b39c")
+	)
+	(text "Two HDMI inputs per computer\nTwo independently extended HDMI monitors\nTwo USB-C data-only upstream ports\nExternal USB-C to HDMI adapter per laptop\nNo charging or EDID emulation"
+		(exclude_from_sim no)
+		(at 72 135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c07acff-7301-49bd-a9df-856d72921a44")
+	)
+	(text "Push button selects computer 1 or 2\nVideo and USB disconnect before selection changes\nHost USB VBUS sensing\nSWD programming header"
+		(exclude_from_sim no)
+		(at 205 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "982145ba-a1e8-4aea-b8b1-ad7ee03fc092")
+	)
+	(text "12V DC input\n5V buck supply for four USB ports\n3.3V logic supply\nReverse-polarity protection"
+		(exclude_from_sim no)
+		(at 72 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a028fa3c-f710-4055-92e4-1c4828ac391b")
+	)
 	(sheet
 		(at 135.89 102.87)
 		(size 144.78 58.42)

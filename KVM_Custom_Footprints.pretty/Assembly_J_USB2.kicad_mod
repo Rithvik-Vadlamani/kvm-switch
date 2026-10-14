@@ -1,0 +1,440 @@
+(footprint "Assembly_J_USB2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GCT USB1046, USB Type A, https://gct.co/files/drawings/usb1046.pdf")
+	(tags "USB SMD Type-A Receptacle Right Angle")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(layer "F.Fab")
+		(uuid "cf7dcead-5ef7-46b6-a995-51c32970d41d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Assembly_J_USB2"
+		(at 0 8.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84626f8f-4800-40fa-bcaf-ebd995bc11ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/837/USB1046-1948751.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c62958e-67d0-4dab-b563-ec65eece0de6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce25ad86-7e7f-44b2-ac29-87fcf8ec0ee0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "USB1046-GF-0190-L-B-A"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3756a04f-7512-4806-a8a7-bbf24b00a586")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C6307429"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1531062f-d2b6-4c72-ab90-0a566edddd48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.58 -6.91)
+		(end -6.58 -5.26)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c42a4f9-a0e7-453b-86c4-9b8560e1eefd")
+	)
+	(fp_line
+		(start -4.41 -6.91)
+		(end -6.58 -6.91)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4287a450-42e4-4672-aad1-85051c1bf4b2")
+	)
+	(fp_line
+		(start -4.41 -6.91)
+		(end -4.41 -8.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ceddf2bc-6e02-46aa-9e26-b0b0d0b6574e")
+	)
+	(fp_line
+		(start 4.41 -6.91)
+		(end 6.58 -6.91)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ae9041f-d645-452e-bc84-9b8acc13e9e1")
+	)
+	(fp_line
+		(start 6.58 -6.91)
+		(end 6.58 -5.26)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06bc96a2-6f20-45a3-872c-192be699007d")
+	)
+	(fp_line
+		(start -5 5.45)
+		(end 5 5.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3eec2336-e430-4ae2-adea-184247d306a6")
+	)
+	(fp_line
+		(start -7.75 5.43)
+		(end -7.75 7.23)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd5098af-342d-4dc4-9635-68af2dcff855")
+	)
+	(fp_line
+		(start -7.75 7.23)
+		(end 7.75 7.23)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "618553f7-8dd9-4b44-9149-774a3528fb9b")
+	)
+	(fp_line
+		(start -7.5 -9.25)
+		(end 7.5 -9.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38c7850a-2462-4bea-b3d2-9c9a1b2bc909")
+	)
+	(fp_line
+		(start -7.5 5.43)
+		(end -7.75 5.43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "77335d0a-a592-4a3b-9b17-a02d63efb623")
+	)
+	(fp_line
+		(start -7.5 5.43)
+		(end -7.5 -9.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df9fad23-ec04-4c10-8879-dd5e637ac3ff")
+	)
+	(fp_line
+		(start 7.5 5.43)
+		(end 7.5 -9.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd366188-5902-42f5-b168-d26e93a61b2d")
+	)
+	(fp_line
+		(start 7.5 5.43)
+		(end 7.75 5.43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6741bde-0b6c-419c-a45d-d843da383992")
+	)
+	(fp_line
+		(start 7.75 5.43)
+		(end 7.75 7.23)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb723655-5dcd-4141-8ea8-97fba96c5ac8")
+	)
+	(fp_line
+		(start -7.25 5.93)
+		(end -7.25 6.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5fc6eaf3-89fa-4980-b178-ad87f26046b0")
+	)
+	(fp_line
+		(start -7.25 6.73)
+		(end 7.25 6.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "80190065-e721-47ca-ac09-14b7f523361c")
+	)
+	(fp_line
+		(start -6.58 -1.84)
+		(end -6.58 5.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a37b3a22-585d-4b47-90cc-2c77cbf65127")
+	)
+	(fp_line
+		(start -6.4 -6.67)
+		(end -6.4 5.93)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "167233f5-88eb-421b-a3ff-4f80c18d290c")
+	)
+	(fp_line
+		(start -6.4 5.93)
+		(end -7.25 5.93)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1b843149-f553-4739-ba76-462fad4aa034")
+	)
+	(fp_line
+		(start -3.75 -6.73)
+		(end -3.5 -6.23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5db997f6-9af9-4cb4-a393-3d3bb87bad06")
+	)
+	(fp_line
+		(start -3.5 -6.23)
+		(end -3.25 -6.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1875172d-6bdf-4175-85e7-9a8ab6a20161")
+	)
+	(fp_line
+		(start 6.4 -6.67)
+		(end -6.4 -6.67)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "91ece27a-e2f7-4eb1-ab27-0486f5dcb969")
+	)
+	(fp_line
+		(start 6.4 5.93)
+		(end 6.4 -6.67)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a7728d5-1bd1-4ebc-9c11-fb19a46afb89")
+	)
+	(fp_line
+		(start 6.58 -1.84)
+		(end 6.58 5.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5762ae5e-371f-4e4a-98cd-3e77e209fbe2")
+	)
+	(fp_line
+		(start 7.25 5.93)
+		(end 6.4 5.93)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d4a4bea1-0bf1-4950-9cfd-2d4419c48db9")
+	)
+	(fp_line
+		(start 7.25 6.73)
+		(end 7.25 5.93)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dc3c1d99-fd3c-49a8-947c-3cf7222009aa")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 4.97 0)
+		(layer "Dwgs.User")
+		(uuid "e7f999c8-abf0-42d9-8d6e-96233e02dbad")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "851a1875-7c95-4779-82fe-2cb5e1c3aba4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd oval
+		(at -6.4 -3.55)
+		(size 1.2 2.9)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2aea7259-87bc-4f88-9886-534199b8f7d5")
+	)
+	(pad "" smd oval
+		(at 6.4 -3.55)
+		(size 1.2 2.9)
+		(layers "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d75597c9-433c-4788-b47d-427009d78bdf")
+	)
+	(pad "1" smd roundrect
+		(at -3.5 -7.25)
+		(size 1.3 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a60fb9e2-1e44-47f6-9551-482836127796")
+	)
+	(pad "2" smd roundrect
+		(at -1 -7.25)
+		(size 1.3 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "66249097-2967-4c32-bd03-4b68a0ba3256")
+	)
+	(pad "3" smd roundrect
+		(at 1 -7.25)
+		(size 1.3 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cc78c2ca-63e3-4a24-9b0f-0e305a764693")
+	)
+	(pad "4" smd roundrect
+		(at 3.5 -7.25)
+		(size 1.3 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a028f304-8db7-41e6-a474-967994d0a871")
+	)
+	(pad "SH" thru_hole oval
+		(at -6.4 -3.55)
+		(size 1.2 2.9)
+		(drill oval 0.6 2.3)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "57a024ea-8919-4fb3-a37d-815cd47f9ffd")
+	)
+	(pad "SH" thru_hole oval
+		(at 6.4 -3.55)
+		(size 1.2 2.9)
+		(drill oval 0.6 2.3)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "256570c3-1f6d-43e3-ba9c-b34726444cce")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Receptacle_GCT_USB1046.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

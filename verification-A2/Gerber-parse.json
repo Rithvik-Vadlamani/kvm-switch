@@ -1,0 +1,179 @@
+{
+  "parser": "gerbonara 1.6.3",
+  "source": "outputs/revision-A2/Two-computer-switch-A2-Gerbers.zip",
+  "layers": [
+    {
+      "side": "top",
+      "use": "copper",
+      "objects": 4112,
+      "bounds_mm": [
+        [
+          1.415,
+          -99.2
+        ],
+        [
+          98.58500000000001,
+          -1.415
+        ]
+      ]
+    },
+    {
+      "side": "top",
+      "use": "mask",
+      "objects": 732,
+      "bounds_mm": [
+        [
+          1.415,
+          -99.0
+        ],
+        [
+          98.58500000000001,
+          -1.415
+        ]
+      ]
+    },
+    {
+      "side": "top",
+      "use": "silk",
+      "objects": 2796,
+      "bounds_mm": [
+        [
+          1.415,
+          -99.77
+        ],
+        [
+          98.58500000000001,
+          -1.415
+        ]
+      ]
+    },
+    {
+      "side": "top",
+      "use": "paste",
+      "objects": 708,
+      "bounds_mm": [
+        [
+          2.025,
+          -99.0
+        ],
+        [
+          97.65,
+          -7.985
+        ]
+      ]
+    },
+    {
+      "side": "bottom",
+      "use": "copper",
+      "objects": 2160,
+      "bounds_mm": [
+        [
+          1.415,
+          -99.2
+        ],
+        [
+          98.58500000000001,
+          -1.415
+        ]
+      ]
+    },
+    {
+      "side": "bottom",
+      "use": "mask",
+      "objects": 272,
+      "bounds_mm": [
+        [
+          1.415,
+          -99.0
+        ],
+        [
+          98.58500000000001,
+          -1.415
+        ]
+      ]
+    },
+    {
+      "side": "bottom",
+      "use": "silk",
+      "objects": 562,
+      "bounds_mm": [
+        [
+          1.415,
+          -99.0
+        ],
+        [
+          98.58500000000001,
+          -1.415
+        ]
+      ]
+    },
+    {
+      "side": "bottom",
+      "use": "paste",
+      "objects": 220,
+      "bounds_mm": [
+        [
+          25.35,
+          -92.015
+        ],
+        [
+          79.76,
+          -19.625
+        ]
+      ]
+    },
+    {
+      "side": "inner_2",
+      "use": "copper",
+      "objects": 496,
+      "bounds_mm": [
+        [
+          0.5005,
+          -99.4995
+        ],
+        [
+          99.4995,
+          -0.5005
+        ]
+      ]
+    },
+    {
+      "side": "inner_1",
+      "use": "copper",
+      "objects": 496,
+      "bounds_mm": [
+        [
+          0.5005,
+          -99.4995
+        ],
+        [
+          99.4995,
+          -0.5005
+        ]
+      ]
+    },
+    {
+      "side": "mechanical",
+      "use": "outline",
+      "objects": 4,
+      "bounds_mm": [
+        [
+          -0.025,
+          -100.025
+        ],
+        [
+          100.025,
+          0.025
+        ]
+      ]
+    }
+  ],
+  "warnings": [
+    "/var/folders/wf/fd3pbrrd0jq7qwhwc_sy228w0000gn/T/tmpn4n8a19w/input/KVM_Switch-NPTH.drl:18 \"G90\": G90 header statement found after end of header",
+    "/var/folders/wf/fd3pbrrd0jq7qwhwc_sy228w0000gn/T/tmpn4n8a19w/input/KVM_Switch-PTH.drl:24 \"G90\": G90 header statement found after end of header"
+  ],
+  "plated_drill_objects": 495,
+  "nonplated_drill_objects": 11,
+  "status": "PASS",
+  "scope": "Independent parsing and layer/drill inventory. Does not constitute factory DFM, connectivity extraction, impedance measurement, or functional validation."
+}

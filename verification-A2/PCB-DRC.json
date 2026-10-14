@@ -1,0 +1,261 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-06T01:17:11",
+    "ignored_checks": [
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [
+        {
+            "description": "KVM_Custom_Footprints:Bourns_SRP7050TA doesn't match symbol's footprint filters (Choke_* *Coil* Inductor_* L_*)",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 21.0,
+                        "y": 80.0
+                    },
+                    "uuid": "c35b29ca-8c54-4f12-9adc-a9271bd4ddf4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_HDMI_C1_MON1 doesn't match symbol's footprint filters (HDMI*A*)",
+            "items": [
+                {
+                    "description": "Footprint J_HDMI_C1_MON1",
+                    "pos": {
+                        "x": 6.0,
+                        "y": 24.0
+                    },
+                    "uuid": "d65ad7ec-1715-4dcb-b4a8-fcae8e56eb0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_HDMI_C1_MON2 doesn't match symbol's footprint filters (HDMI*A*)",
+            "items": [
+                {
+                    "description": "Footprint J_HDMI_C1_MON2",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 24.0
+                    },
+                    "uuid": "2030ba04-1916-470a-98ec-4e4ed790efb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_HDMI_C2_MON1 doesn't match symbol's footprint filters (HDMI*A*)",
+            "items": [
+                {
+                    "description": "Footprint J_HDMI_C2_MON1",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 6.0
+                    },
+                    "uuid": "a6e44ccf-5043-469d-a7ee-c32351c85c08"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_HDMI_C2_MON2 doesn't match symbol's footprint filters (HDMI*A*)",
+            "items": [
+                {
+                    "description": "Footprint J_HDMI_C2_MON2",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 6.0
+                    },
+                    "uuid": "da80a590-59aa-4f19-88d7-ac763e55f270"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_HDMI_MON1 doesn't match symbol's footprint filters (HDMI*A*)",
+            "items": [
+                {
+                    "description": "Footprint J_HDMI_MON1",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 94.0
+                    },
+                    "uuid": "04a2ad87-3ee3-4f54-9d90-50e702e229da"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_HDMI_MON2 doesn't match symbol's footprint filters (HDMI*A*)",
+            "items": [
+                {
+                    "description": "Footprint J_HDMI_MON2",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 94.0
+                    },
+                    "uuid": "cef9f250-8120-4ae7-9c62-428abff0428c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_R44 doesn't match symbol's footprint filters (R_*)",
+            "items": [
+                {
+                    "description": "Footprint R44",
+                    "pos": {
+                        "x": 24.5,
+                        "y": 31.0
+                    },
+                    "uuid": "d1ed2328-c726-44bf-a988-f23f67ee9223"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_R46 doesn't match symbol's footprint filters (R_*)",
+            "items": [
+                {
+                    "description": "Footprint R46",
+                    "pos": {
+                        "x": 76.0,
+                        "y": 33.0
+                    },
+                    "uuid": "2f003cf7-38d3-4914-84cf-2f0f8edee3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias doesn't match symbol's footprint filters (RTQ0056B)",
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 24.0
+                    },
+                    "uuid": "ec66f8b5-6078-4a77-88d9-9e64fb0ee11f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm_ThermalVias doesn't match symbol's footprint filters (RTQ0056B)",
+            "items": [
+                {
+                    "description": "Footprint U8",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 24.0
+                    },
+                    "uuid": "bb22b310-2a21-45b1-b28b-75fabb22028e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_USB1 doesn't match symbol's footprint filters (USB*)",
+            "items": [
+                {
+                    "description": "Footprint J_USB1",
+                    "pos": {
+                        "x": 99.75,
+                        "y": 92.0
+                    },
+                    "uuid": "1059d1a9-05f6-426b-8477-2fc94c16362a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_USB2 doesn't match symbol's footprint filters (USB*)",
+            "items": [
+                {
+                    "description": "Footprint J_USB2",
+                    "pos": {
+                        "x": 99.75,
+                        "y": 76.0
+                    },
+                    "uuid": "db4424ab-ce1f-4a69-a0db-e35d4e368367"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_USB3 doesn't match symbol's footprint filters (USB*)",
+            "items": [
+                {
+                    "description": "Footprint J_USB3",
+                    "pos": {
+                        "x": 99.75,
+                        "y": 60.0
+                    },
+                    "uuid": "d7fe9891-4e32-471c-9b2a-b2f0dd21968d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_J_USB4 doesn't match symbol's footprint filters (USB*)",
+            "items": [
+                {
+                    "description": "Footprint J_USB4",
+                    "pos": {
+                        "x": 99.75,
+                        "y": 44.0
+                    },
+                    "uuid": "2e0759ff-ae3b-471c-bdbc-6d2bc57313da"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        },
+        {
+            "description": "KVM_Custom_Footprints:Assembly_Y1 doesn't match symbol's footprint filters (Crystal*)",
+            "items": [
+                {
+                    "description": "Footprint Y1",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 69.0
+                    },
+                    "uuid": "20776092-2fd5-4dc8-bf0b-258274b2664f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_filters_mismatch"
+        }
+    ],
+    "source": "KVM_Switch.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}

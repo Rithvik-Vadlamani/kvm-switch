@@ -1,0 +1,74 @@
+{
+  "component_count": 161,
+  "numbered_pads_checked": 923,
+  "pin_net_and_part_errors": [],
+  "opposite_side_through_hole_proximity": [
+    {
+      "lead": "J_HDMI_MON2:SH",
+      "other": "R30",
+      "lead_xy": [
+        72.25,
+        91.475
+      ],
+      "courtyard": [
+        73.005,
+        92.045,
+        73.995,
+        93.955
+      ],
+      "lead_plus_solder_radius_mm": 1.6
+    },
+    {
+      "lead": "J_HDMI_MON2:SH",
+      "other": "U20",
+      "lead_xy": [
+        72.25,
+        97.435
+      ],
+      "courtyard": [
+        73.125,
+        94.275,
+        77.275,
+        97.725
+      ],
+      "lead_plus_solder_radius_mm": 1.1
+    }
+  ],
+  "scope": "Initial conservative circular drill projection; flagged slots require oriented-shape refinement. Fresh XML netlist vs every numbered PCB pad and all MPN/LCSC fields; opposite-side through-hole drill radius +0.25mm vs courtyard screening, not 3D enclosure validation.",
+  "opposite_side_slot_refinement": [
+    {
+      "lead": "J_HDMI_MON2:SH",
+      "other": "R30",
+      "lead_xy": [
+        72.25,
+        91.475
+      ],
+      "courtyard": [
+        73.005,
+        92.045,
+        73.995,
+        93.955
+      ],
+      "lead_plus_solder_radius_mm": 1.6,
+      "oriented_slot_projection_clearance_mm": 0.05499999999999261,
+      "overlap": false
+    },
+    {
+      "lead": "J_HDMI_MON2:SH",
+      "other": "U20",
+      "lead_xy": [
+        72.25,
+        97.435
+      ],
+      "courtyard": [
+        73.125,
+        94.275,
+        77.275,
+        97.725
+      ],
+      "lead_plus_solder_radius_mm": 1.1,
+      "oriented_slot_projection_clearance_mm": 0.17499999999999713,
+      "overlap": false
+    }
+  ]
+}

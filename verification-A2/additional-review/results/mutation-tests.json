@@ -1,0 +1,32 @@
+[
+  {
+    "mutation": "early_break",
+    "caught": true,
+    "failure": "AssertionError"
+  },
+  {
+    "mutation": "early_settle",
+    "caught": true,
+    "failure": "AssertionError: ((0, 150, 0, 0, False, False, False, False), 150, None, 0, 0, (1, 100, 0, 0, False, False, True, False), (1, 99, 0, 0, False, False, True, False))"
+  },
+  {
+    "mutation": "usb_without_host",
+    "caught": true,
+    "failure": "AssertionError: ((1, 100, 0, 0, False, False, True, False), 100, None, 0, 0, (2, 0, 0, 0, False, True, True, False), (2, 0, 0, 0, True, True, True, False))"
+  },
+  {
+    "mutation": "release_in_reset",
+    "caught": true,
+    "failure": "AssertionError: ((0, 150, 0, 0, False, False, False, False), 0, 0, 0, 0, (0, 150, 0, 0, False, False, False, False), (0, 150, 0, 0, False, False, True, False))"
+  },
+  {
+    "mutation": "select_before_break",
+    "caught": true,
+    "failure": "AssertionError: ((0, 150, 0, 0, False, False, False, False), 0, 1, 0, 0, (0, 150, 0, 1, False, False, False, False), (0, 150, 1, 1, False, False, False, False))"
+  },
+  {
+    "mutation": "unsigned_wrap",
+    "caught": true,
+    "failure": "AssertionError: ((0, 150, 0, 0, False, False, False, False), 0, None, 0, 4294967232, (0, 150, 0, 0, False, False, False, False), (1, 100, 0, 0, False, False, True, False))"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "reachable_normalized_states": 804,
+  "transition_cases_including_rollover": 173664,
+  "clock_step_ms": [
+    0,
+    1,
+    99,
+    100,
+    149,
+    150,
+    151,
+    250,
+    1000
+  ],
+  "scope": "Exhaustive for stated discrete event model; independent Python oracle compared with actual compiled C. No hardware or all possible CPU schedules claim."
+}

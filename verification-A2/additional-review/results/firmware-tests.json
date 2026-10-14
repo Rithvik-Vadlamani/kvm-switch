@@ -1,0 +1,24 @@
+[
+  {
+    "test": "test_control",
+    "stdout": "PASS: break-before-select, startup, reconnect, rapid requests, rollover, randomized events",
+    "undefined_behavior_sanitizer": "enabled"
+  },
+  {
+    "test": "test_outputs",
+    "stdout": "GPIO sequencing and video-without-USB regression tests passed",
+    "undefined_behavior_sanitizer": "enabled"
+  },
+  {
+    "test": "test_startup",
+    "stdout": "PASS: actual GPIO startup, clock readback, safe latch before output mode, SWD preservation",
+    "undefined_behavior_sanitizer": "enabled"
+  },
+  {
+    "binary_bytes": 980,
+    "vector_count": 48,
+    "initial_stack_pointer": "0x20002000",
+    "Cortex_M0_reserved_vectors_zero": true,
+    "all_nonreserved_handler_addresses_in_flash_and_thumb": true
+  }
+]

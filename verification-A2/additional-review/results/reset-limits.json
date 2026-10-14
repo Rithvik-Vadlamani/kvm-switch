@@ -1,0 +1,150 @@
+{
+  "reset_logic_truth_table": [
+    {
+      "3V3_qualified": false,
+      "5V_qualified": false,
+      "external_reset_asserted": false,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": false,
+      "external_reset_asserted": false,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": false,
+      "external_reset_asserted": true,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": false,
+      "external_reset_asserted": true,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": true,
+      "external_reset_asserted": false,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": true,
+      "external_reset_asserted": false,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": true,
+      "external_reset_asserted": true,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": false,
+      "5V_qualified": true,
+      "external_reset_asserted": true,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": false,
+      "external_reset_asserted": false,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": false,
+      "external_reset_asserted": false,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": false,
+      "external_reset_asserted": true,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": false,
+      "external_reset_asserted": true,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": true,
+      "external_reset_asserted": false,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": true,
+      "external_reset_asserted": false,
+      "firmware_release_request": true,
+      "hub_reset_released": true
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": true,
+      "external_reset_asserted": true,
+      "firmware_release_request": false,
+      "hub_reset_released": false
+    },
+    {
+      "3V3_qualified": true,
+      "5V_qualified": true,
+      "external_reset_asserted": true,
+      "firmware_release_request": true,
+      "hub_reset_released": false
+    }
+  ],
+  "assumption": "Digital qualification truth table only while supervisors/gate operate in specified supply range; threshold/delay history, rapid rail collapse, analog transient and back-power current are not simulated.",
+  "capacitor_discharge_current_bound": {
+    "voltage_bound_V": 3.6,
+    "R50_min_ohm_including_1percent_and_65C_100ppm": 983.5,
+    "bulk_cap_branch_peak_A": 0.0036603965429588205,
+    "pullups_and_input_leakage_A": 0.0005132363636363637,
+    "sum_A": 0.004173632906595184,
+    "TPS3808_absolute_RESET_pin_current_A": 0.005,
+    "R50_peak_power_W": 0.013177427554651755,
+    "R50_nominal_rating_W": 0.0625,
+    "scope": "Bulk capacitor branch and DC pulls. Fast stray-capacitance spikes and actual RESET low-going waveform require measurement."
+  },
+  "supervisor_thresholds_full_temperature": {
+    "3V3_falling_min_V": 3.0239499999999997,
+    "3V3_falling_max_V": 3.1160499999999995,
+    "3V3_conservative_rising_max_V": 3.193951249999999,
+    "5V_falling_min_V": 4.557,
+    "5V_falling_max_V": 4.743,
+    "5V_conservative_rising_max_V": 4.861575,
+    "release_delay_ms": [
+      12,
+      28
+    ]
+  },
+  "host_vbus_dividers": {
+    "high_at_5V5_max_ratio_V": 3.3263473053892216,
+    "high_at_4V4_min_ratio_V": 2.6188376753507017,
+    "available_injection_current_per_host_if_core_unpowered_A": 5.555555555555556e-05
+  },
+  "important_limits": [
+    "G33 senses near the regulator; remote IC voltage can be lower by copper/ground losses. Its minimum falling threshold does not guarantee all remote 3.0 V devices stay above their operating minimum until reset asserts. This is brownout recovery hardening, not a guaranteed uninterrupted operating envelope.",
+    "AP2112 temperature coefficient is typical, not a guaranteed maximum; do not turn it into a certified temperature-corner bound.",
+    "R50 preserves a series-RC reset filter but changes its high-frequency attenuation and discharge time. Reset waveforms and noise immunity are physical acceptance tests."
+  ]
+}

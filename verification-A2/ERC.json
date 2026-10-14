@@ -1,0 +1,335 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-06T01:17:09",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/279dcbcf-1f22-44c7-9f37-6f8e9c8b454d",
+            "violations": [
+                {
+                    "description": "Assigned footprint (bourns_srp7050ta) doesn't match footprint filters (Choke_* *Coil* Inductor_* L_*)",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [L]",
+                            "pos": {
+                                "x": 2.1336,
+                                "y": 0.4064
+                            },
+                            "uuid": "c70eaf59-ef60-493b-ac98-c354c8aa3b78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_hdmi_c1_mon1) doesn't match footprint filters (HDMI*A*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_HDMI_C1_MON1 [HDMI_A_1.4]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 2.6543
+                            },
+                            "uuid": "b353a35d-b7eb-4d2b-b7c4-c55b30323ec7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_hdmi_c2_mon1) doesn't match footprint filters (HDMI*A*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_HDMI_C2_MON1 [HDMI_A_1.4]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 3.5306
+                            },
+                            "uuid": "385eb67c-2bcf-4817-9794-fae6a4f244ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (qfn-56-1ep_8x8mm_p0.5mm_ep4.5x5.2mm_thermalvias) doesn't match footprint filters (RTQ0056B)",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [HD3SS215RTQT]",
+                            "pos": {
+                                "x": 2.0574,
+                                "y": 1.0541
+                            },
+                            "uuid": "97cdaef9-8bde-4613-8d8f-6263cd803fcf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_hdmi_c2_mon2) doesn't match footprint filters (HDMI*A*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_HDMI_C2_MON2 [HDMI_A_1.4]",
+                            "pos": {
+                                "x": 2.2098,
+                                "y": 3.5179
+                            },
+                            "uuid": "78775d72-41bd-487a-bc8b-949c597a00be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_hdmi_c1_mon2) doesn't match footprint filters (HDMI*A*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_HDMI_C1_MON2 [HDMI_A_1.4]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 2.6416
+                            },
+                            "uuid": "4f42398a-9c11-4dc5-861e-036c5ee038d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (qfn-56-1ep_8x8mm_p0.5mm_ep4.5x5.2mm_thermalvias) doesn't match footprint filters (RTQ0056B)",
+                    "items": [
+                        {
+                            "description": "Symbol U8 [HD3SS215RTQT]",
+                            "pos": {
+                                "x": 3.3655,
+                                "y": 1.0541
+                            },
+                            "uuid": "865fee30-7620-4338-a6ea-1dfb279e9e35"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_r44) doesn't match footprint filters (R_*)",
+                    "items": [
+                        {
+                            "description": "Symbol R44 [R]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 2.7178
+                            },
+                            "uuid": "5cf6b451-077f-406a-ab9c-e67476216696"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_r46) doesn't match footprint filters (R_*)",
+                    "items": [
+                        {
+                            "description": "Symbol R46 [R]",
+                            "pos": {
+                                "x": 4.318,
+                                "y": 2.7178
+                            },
+                            "uuid": "cb17ef25-cb71-4b02-beee-658ddcf545d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_hdmi_mon1) doesn't match footprint filters (HDMI*A*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_HDMI_MON1 [HDMI_A_1.4]",
+                            "pos": {
+                                "x": 4.5212,
+                                "y": 0.5461
+                            },
+                            "uuid": "3ea75a3f-8b3d-4b5d-99f9-72c2ce01c022"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_hdmi_mon2) doesn't match footprint filters (HDMI*A*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_HDMI_MON2 [HDMI_A_1.4]",
+                            "pos": {
+                                "x": 4.5212,
+                                "y": 1.3208
+                            },
+                            "uuid": "e1651abd-adbb-47b7-aa60-50a856e8189e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Four items connected at 1409700, 241300",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR011 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.2413
+                            },
+                            "uuid": "0abc959e-aa2b-46c2-93cb-feb276affc43"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.4097,
+                                "y": 0.2413
+                            },
+                            "uuid": "472dcdbb-9840-4eaf-b9a5-6952279c1329"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Four items connected at 1930400, 584200",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.3683 mm",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.5842
+                            },
+                            "uuid": "59fa8fe9-59eb-4540-a3dd-5d0760138bba"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.2667 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.3175
+                            },
+                            "uuid": "7aa3a72d-a131-4592-8ebe-1ef65aadf24b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "four_way_junction"
+                },
+                {
+                    "description": "Assigned footprint (assembly_y1) doesn't match footprint filters (Crystal*)",
+                    "items": [
+                        {
+                            "description": "Symbol Y1 [Crystal_GND24]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 1.143
+                            },
+                            "uuid": "c5036dd0-1511-45f1-8e4b-d0c07be67e9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_usb1) doesn't match footprint filters (USB*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_USB1 [USB1046_USB2]",
+                            "pos": {
+                                "x": 5.0038,
+                                "y": 0.6096
+                            },
+                            "uuid": "ae8e58d3-7e31-4826-b8e3-b535f90cb272"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_usb2) doesn't match footprint filters (USB*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_USB2 [USB1046_USB2]",
+                            "pos": {
+                                "x": 5.0038,
+                                "y": 1.4986
+                            },
+                            "uuid": "5e24ec3f-db55-4986-a937-176b1134f5da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_usb3) doesn't match footprint filters (USB*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_USB3 [USB1046_USB2]",
+                            "pos": {
+                                "x": 5.0038,
+                                "y": 2.3876
+                            },
+                            "uuid": "04a63753-1ba0-46a6-bd7c-baa848ee8a8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Assigned footprint (assembly_j_usb4) doesn't match footprint filters (USB*)",
+                    "items": [
+                        {
+                            "description": "Symbol J_USB4 [USB1046_USB2]",
+                            "pos": {
+                                "x": 5.0038,
+                                "y": 3.2766
+                            },
+                            "uuid": "fdb085b7-bb91-4946-b7d4-99578aa5ddcf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        },
+        {
+            "path": "/PDN/",
+            "uuid_path": "/279dcbcf-1f22-44c7-9f37-6f8e9c8b454d/c388f6d5-6bc6-4bf9-b286-a8a823aca0e3",
+            "violations": []
+        },
+        {
+            "path": "/STM32_Control/",
+            "uuid_path": "/279dcbcf-1f22-44c7-9f37-6f8e9c8b454d/1236b2ca-df0c-4153-9d00-909e454b29f4",
+            "violations": []
+        },
+        {
+            "path": "/USBC_Mux/",
+            "uuid_path": "/279dcbcf-1f22-44c7-9f37-6f8e9c8b454d/519f69cf-a4e6-474a-bcfa-32c44b233085",
+            "violations": []
+        },
+        {
+            "path": "/USB_Hub_ESD/",
+            "uuid_path": "/279dcbcf-1f22-44c7-9f37-6f8e9c8b454d/053f1f20-89e4-473c-8a6b-6d679695ab70",
+            "violations": []
+        }
+    ],
+    "source": "KVM_Switch.kicad_sch"
+}

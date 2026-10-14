@@ -1,0 +1,26 @@
+{
+  "method": "Independent Gerbonara copper artwork + Excellon plated holes, 20um/pixel raster connectivity. Pad net labels come from PCB and are independently compared with schematic in separate audit. 8-neighbour pixels; no drill barrel/etch/copper-thickness fabrication model.",
+  "copper_islands_per_layer": [
+    486,
+    245,
+    245,
+    368
+  ],
+  "nets_sampled": 239,
+  "missing_pad_copper": [],
+  "shorted_net_groups": [],
+  "split_nets": {
+    "USB_UP_P": [
+      [
+        3,
+        239
+      ],
+      [
+        0,
+        341
+      ]
+    ]
+  },
+  "resolution_mm": 0.02,
+  "status": "INVESTIGATE"
+}

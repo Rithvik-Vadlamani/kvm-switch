@@ -88,10 +88,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -105,7 +105,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -132,7 +132,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -140,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -149,13 +149,13 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.1,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "A0 DRAFT"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -446,9 +446,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -495,74 +495,98 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.15,
+        "microvia_drill": 0.1,
         "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.1501,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.1826,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1826,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.6,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "StitchedGround",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.16,
-        "name": "DP_100D",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.16,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
+        "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2,
-        "name": "USB2_90D",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2,
-        "name": "USB_SS_90D",
+        "diff_pair_gap": 0.1501,
+        "diff_pair_via_gap": 0.2,
+        "diff_pair_width": 0.2474,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.2474,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -577,43 +601,291 @@
       },
       {
         "netclass": "Power",
-        "pattern": "+3.3V"
+        "pattern": "+VIN"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D3_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON1_D3_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D3_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C1_MON2_D3_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D3_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON1_D3_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D3_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/C2_MON2_D3_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D3_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON1_D3_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D3_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/USBC_Mux/MON2_D3_P"
       },
       {
         "netclass": "Power",
-        "pattern": "VIN"
-      },
-      {
-        "netclass": "USB2_90D",
-        "pattern": "USB2_D?_?"
-      },
-      {
-        "netclass": "USB_SS_90D",
-        "pattern": "/USBC_Mux/SS*"
-      },
-      {
-        "netclass": "USB_SS_90D",
-        "pattern": "Net-(J?-TX*)"
-      },
-      {
-        "netclass": "USB_SS_90D",
-        "pattern": "Net-(J?-RX*)"
-      },
-      {
-        "netclass": "DP_100D",
-        "pattern": "/USBC_Mux/DA*"
-      },
-      {
-        "netclass": "DP_100D",
-        "pattern": "/USBC_Mux/DB*"
-      },
-      {
-        "netclass": "DP_100D",
-        "pattern": "/USBC_Mux/AUX*"
+        "pattern": "HDMI_MON1_5V"
       },
       {
         "netclass": "Power",
-        "pattern": "/PDN/+VIN"
+        "pattern": "HDMI_MON2_5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "LDO_VIN"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_HOST1_N"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_HOST2_N"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_HOST1_P"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_HOST2_P"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_UP_N"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_UP_P"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "USB_VBUS1"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "USB_VBUS2"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "USB_VBUS3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "USB_VBUS4"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VIN_RAW"
+      },
+      {
+        "netclass": "StitchedGround",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D1_P"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D1_N"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D2_P"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D2_N"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D3_P"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D3_N"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D4_P"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "USB_D4_N"
       }
     ]
   },
@@ -695,96 +967,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -825,17 +1013,17 @@
     "top_level_sheets": [
       {
         "filename": "KVM_Switch.kicad_sch",
-        "name": "Root",
+        "name": "KVM_Switch",
         "uuid": "279dcbcf-1f22-44c7-9f37-6f8e9c8b454d"
       }
     ],
-    "used_designators": "U7-8,U11",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "279dcbcf-1f22-44c7-9f37-6f8e9c8b454d",
-      "Root"
+      "KVM_Switch"
     ],
     [
       "c388f6d5-6bc6-4bf9-b286-a8a823aca0e3",

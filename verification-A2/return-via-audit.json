@@ -1,0 +1,310 @@
+{
+  "max_distance_mm": 1.6754197235319925,
+  "method": "Signal via center to nearest GND via or plated GND pad; geometric proxy, not field simulation",
+  "results": [
+    {
+      "net": "USB_HOST2_P",
+      "xy": [
+        10.0,
+        68.75
+      ],
+      "nearest_ground_mm": 0.8139410298049832
+    },
+    {
+      "net": "USB_HOST2_P",
+      "xy": [
+        8.3,
+        69.75
+      ],
+      "nearest_ground_mm": 1.3009611831257675
+    },
+    {
+      "net": "USB_HOST2_P",
+      "xy": [
+        8.3,
+        68.75
+      ],
+      "nearest_ground_mm": 1.2298373876248827
+    },
+    {
+      "net": "USB_HOST2_N",
+      "xy": [
+        9.4,
+        69.25
+      ],
+      "nearest_ground_mm": 0.5852349955359784
+    },
+    {
+      "net": "USB_HOST2_N",
+      "xy": [
+        10.4,
+        69.25
+      ],
+      "nearest_ground_mm": 0.9708243919473789
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D2_P",
+      "xy": [
+        74.8375,
+        21.175
+      ],
+      "nearest_ground_mm": 1.1245137838194734
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D2_N",
+      "xy": [
+        74.8375,
+        21.825
+      ],
+      "nearest_ground_mm": 0.5954252681907211
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D1_P",
+      "xy": [
+        74.8375,
+        22.675
+      ],
+      "nearest_ground_mm": 0.662971530308801
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D1_N",
+      "xy": [
+        74.8375,
+        23.325
+      ],
+      "nearest_ground_mm": 0.5922678870241033
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D0_P",
+      "xy": [
+        74.8375,
+        24.175
+      ],
+      "nearest_ground_mm": 0.5922678870241033
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D0_N",
+      "xy": [
+        74.8375,
+        24.825
+      ],
+      "nearest_ground_mm": 0.5922678870241033
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D3_P",
+      "xy": [
+        74.8375,
+        25.675
+      ],
+      "nearest_ground_mm": 0.5922678870241033
+    },
+    {
+      "net": "/USBC_Mux/C1_MON2_D3_N",
+      "xy": [
+        74.8375,
+        26.325
+      ],
+      "nearest_ground_mm": 0.5869678440936916
+    },
+    {
+      "net": "USB_HOST1_P",
+      "xy": [
+        8.3,
+        47.75
+      ],
+      "nearest_ground_mm": 1.2298373876248827
+    },
+    {
+      "net": "USB_HOST1_P",
+      "xy": [
+        8.3,
+        48.75
+      ],
+      "nearest_ground_mm": 0.7778174593051995
+    },
+    {
+      "net": "USB_HOST1_P",
+      "xy": [
+        10.0,
+        47.75
+      ],
+      "nearest_ground_mm": 0.8139410298049832
+    },
+    {
+      "net": "USB_HOST1_N",
+      "xy": [
+        10.4,
+        48.25
+      ],
+      "nearest_ground_mm": 0.7071067811865476
+    },
+    {
+      "net": "USB_HOST1_N",
+      "xy": [
+        9.4,
+        48.25
+      ],
+      "nearest_ground_mm": 0.7071067811865476
+    },
+    {
+      "net": "USB_UP_N",
+      "xy": [
+        53.65,
+        66.6875
+      ],
+      "nearest_ground_mm": 1.291377655838912
+    },
+    {
+      "net": "USB_UP_N",
+      "xy": [
+        36.574999,
+        69.325
+      ],
+      "nearest_ground_mm": 0.8838843532957252
+    },
+    {
+      "net": "USB_UP_P",
+      "xy": [
+        53.5,
+        65.8375
+      ],
+      "nearest_ground_mm": 1.0338792240876078
+    },
+    {
+      "net": "USB_UP_P",
+      "xy": [
+        36.574999,
+        68.675
+      ],
+      "nearest_ground_mm": 0.5884303272274505
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D2_P",
+      "xy": [
+        67.675,
+        19.1625
+      ],
+      "nearest_ground_mm": 1.6754197235319925
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D2_N",
+      "xy": [
+        68.325,
+        19.1625
+      ],
+      "nearest_ground_mm": 1.4007252585714316
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D1_P",
+      "xy": [
+        69.175,
+        19.1625
+      ],
+      "nearest_ground_mm": 1.151425746628938
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D1_N",
+      "xy": [
+        69.825,
+        19.1625
+      ],
+      "nearest_ground_mm": 0.5922678870241056
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D0_P",
+      "xy": [
+        70.675,
+        19.1625
+      ],
+      "nearest_ground_mm": 0.5922678870241056
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D0_N",
+      "xy": [
+        71.325,
+        19.1625
+      ],
+      "nearest_ground_mm": 0.6629715303088034
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D3_P",
+      "xy": [
+        72.175,
+        19.1625
+      ],
+      "nearest_ground_mm": 0.5954252681907294
+    },
+    {
+      "net": "/USBC_Mux/C2_MON2_D3_N",
+      "xy": [
+        72.825,
+        19.1625
+      ],
+      "nearest_ground_mm": 1.124513783819484
+    },
+    {
+      "net": "/USBC_Mux/MON1_D2_P",
+      "xy": [
+        27.175,
+        28.8375
+      ],
+      "nearest_ground_mm": 1.4020074892809937
+    },
+    {
+      "net": "/USBC_Mux/MON1_D2_N",
+      "xy": [
+        27.825,
+        28.8375
+      ],
+      "nearest_ground_mm": 0.9953014618697181
+    },
+    {
+      "net": "/USBC_Mux/MON1_D1_P",
+      "xy": [
+        28.675,
+        28.8375
+      ],
+      "nearest_ground_mm": 0.9953014618697181
+    },
+    {
+      "net": "/USBC_Mux/MON1_D1_N",
+      "xy": [
+        29.325,
+        28.8375
+      ],
+      "nearest_ground_mm": 0.9953014618697181
+    },
+    {
+      "net": "/USBC_Mux/MON1_D0_P",
+      "xy": [
+        30.175,
+        28.8375
+      ],
+      "nearest_ground_mm": 0.9953014618697181
+    },
+    {
+      "net": "/USBC_Mux/MON1_D0_N",
+      "xy": [
+        30.825,
+        28.8375
+      ],
+      "nearest_ground_mm": 0.9953014618697181
+    },
+    {
+      "net": "/USBC_Mux/MON1_D3_P",
+      "xy": [
+        31.675,
+        28.8375
+      ],
+      "nearest_ground_mm": 0.9953014618697181
+    },
+    {
+      "net": "/USBC_Mux/MON1_D3_N",
+      "xy": [
+        32.325,
+        28.8375
+      ],
+      "nearest_ground_mm": 1.4020074892809966
+    }
+  ]
+}
